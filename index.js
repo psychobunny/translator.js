@@ -182,7 +182,7 @@
 
 		language = language || 'en';
 
-		if (!fs.existsSync(path.join(__dirname, '../public/language', language))) {
+		if (!fs.existsSync(path.join(__dirname, '../../public/language', language))) {
 			winston.warn('[translator] Language \'' + language + '\' not found. Defaulting to \'en\'');
 			language = 'en';
 		}
