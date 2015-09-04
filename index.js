@@ -172,7 +172,7 @@
 	}
 
 	function loadClient(language, filename, callback) {
-		$.getJSON('/language/' + language + '/' + filename + '.json?v=' + (new Date()).getTime(), callback);
+		require('jquery').getJSON('/language/' + language + '/' + filename + '.json?v=' + (new Date()).getTime(), callback);
 	}
 
 	function loadServer(language, filename, callback) {
