@@ -1,0 +1,21 @@
+{
+  "name": "translator.js",
+  "version": "0.0.1",
+  "description": "translator.js -- used in NodeBB. WIP to become a standalone module, stay tuned!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psychobunny/translator.js/"
+  },
+  "keywords": [
+    "translator",
+    "i8n",
+    "nodebb",
+    "forums"
+  ],
+  "author": "psychobunny",
+  "license": "MIT"
+}
