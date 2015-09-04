@@ -182,12 +182,12 @@
 
 		language = language || 'en';
 
-		if (!fs.existsSync(path.join(__dirname, '../language', language))) {
+		if (!fs.existsSync(path.join(__dirname, '../public/language', language))) {
 			winston.warn('[translator] Language \'' + language + '\' not found. Defaulting to \'en\'');
 			language = 'en';
 		}
 
-		fs.readFile(path.join(__dirname, '../language', language, filename + '.json'), function(err, data) {
+		fs.readFile(path.join(__dirname, '../public/language', language, filename + '.json'), function(err, data) {
 			if (err) {
 				winston.error('Could not load `' + filename + '`: ' + err.message + '. Skipping...');
 				return callback({});
