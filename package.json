@@ -1,6 +1,6 @@
 {
   "name": "translator.js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "translator.js -- used in NodeBB. WIP to become a standalone module, stay tuned!",
   "main": "index.js",
   "scripts": {
