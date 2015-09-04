@@ -187,7 +187,7 @@
 			language = 'en';
 		}
 
-		fs.readFile(path.join(__dirname, '../public/language', language, filename + '.json'), function(err, data) {
+		fs.readFile(path.join(__dirname, '../../public/language', language, filename + '.json'), function(err, data) {
 			if (err) {
 				winston.error('Could not load `' + filename + '`: ' + err.message + '. Skipping...');
 				return callback({});
